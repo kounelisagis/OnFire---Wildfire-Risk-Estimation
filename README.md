@@ -1,9 +1,11 @@
 # OnFire
 Wildfire risk estimation. Project for Copernicus Hackathon in Athens 2019<br/>
-**This was the only DEMO of the hackathon**
+**This was the only DEMO of the hackathon**<br><br>
 
+Preview: https://kounelisagis.me/onfire/
 
 ![Preview](https://raw.githubusercontent.com/kounelisagis/OnFire---Regression/master/_images/photo.png)
+
 
 ## Inspiration
 Estimating the fire risk is one of the important contents of the fire protection design. Modern techniques have to replace the conventional and out-of-date techniques used by fire services among the world and cost hundreds of human lives annually.
