@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+			integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+			crossorigin=""/>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+		<link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+			integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+			crossorigin=""></script>
+		<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+		<section id="container">
+			<div id="title"> <b>OnFire</b> - <i>Wildfire risk estimation</i></div>
+			<div id="map"></div>
+			<div id="panel">
+				<div id="scroll">
+					<input class="field" id="date-input" type="date">
+					<table id="my_table">
+						</table>
+	
+					<table>
+						<tr>
+							<th>Class A</th>
+							<th style="width: 100%" bgcolor="#0000FF"></th>
+						</tr>
+						<tr>
+							<th>Class B</th>
+							<th bgcolor="#2B00D5"></th>
+						</tr>
+						<tr>
+							<th>Class C</th>
+							<th bgcolor="#5500AA"></th>
+						</tr>
+						<tr>
+							<th>Class D</th>
+							<th bgcolor="#800080"></th>
+						</tr>
+						<tr>
+							<th>Class E</th>
+							<th bgcolor="#AA0055"></th>
+						</tr>
+						<tr>
+							<th>Class F</th>
+							<th bgcolor="#D5002B"></th>
+						</tr>
+						<tr>
+							<th>Class G</th>
+							<th bgcolor="#FF0000"></th>
+						</tr>
+					</table>
+				</div>
+				<button id="calculate">Calculate</button>
+			</div>
+		</section>
+		<script src="custom-icons/custom-icons.js"></script>
+		<script src="code.js"></script>
+	</body>
+</html>
