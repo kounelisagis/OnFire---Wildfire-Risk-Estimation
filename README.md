@@ -21,7 +21,7 @@ Python(Flask), Javascript(JQuery), Data from The Hellenic Fire Service
 
 ## The Team
 Ioannis Koutsocheras<br/>
-Michael Karavokiris<br/>
+Michail Karavokyris<br/>
 George Kourtis<br/>
 Gerasimos Papachronopoulos<br/>
 Agisilaos Kounelis
